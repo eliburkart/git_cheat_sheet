@@ -1,1 +1,95 @@
 /* TODO: insert styles here */
+
+
+body {
+
+}
+
+#page {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+header {
+
+}
+
+p {
+  font-family: "roboto";
+  font-weight:300;
+  padding: 10px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+
+  flex-flow: wrap column;
+
+
+}
+#blue {
+  border: 2px solid #4757FF;
+
+}
+#red {
+  border: 2px solid #FB4E32;
+  height: fit-content;
+}
+.local {
+  background-color: #4757FF;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 2em;
+  align-content: center;
+  padding-left: 15px;
+}
+hr.line {
+  border-top: 2px solid #4757FF;
+
+}
+.box {
+  margin: 10 auto;
+  width: 100%;
+
+
+}
+h1 {
+  font-family: "Lato", sans-serif;
+}
+
+.remotes {
+  background-color: #FB4E32;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 2em;
+  align-content: center;
+  padding-left: 15px;
+}
+
+.text {
+  font-family: "Roboto mono", monospace;
+    padding: 10;
+}
+
+.red {
+  color: #FB4E32;
+  height: fit-content;
+}
+
+.blue {
+  color: #4757FF;
+}
+@media only screen and (min-width: 550px) {
+
+  .box {
+    width: 47%;
+  }
+  h1 {
+    text-align: center;
+  }
+  .wrapper {
+      flex-flow: wrap row;
+
+  }
+
+}
